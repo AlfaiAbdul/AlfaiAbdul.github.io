@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(242, 237, 235);
+}
+
+h1{
+    color: rgb(5, 50, 103);
+    text-align: center;
+}
+.parag{
+    margin-left: auto;
+    margin-right: auto;
+    width: 36em;
+}
+
+.sub{
+    text-align: center;
+    color: rgb(5, 50, 103);
+}
+IMG.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.link{
+    display:block;
+    text-decoration:none;
+}
+.table{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*.tail{
+    text-align:center;
+}*/
