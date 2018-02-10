@@ -1,18 +1,27 @@
 
 
 body {
-    background-color: rgba(242, 233, 233, 0.228);
+    /* The image used */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQTZ_0Kw5AzMsdnghT5KcXFcJjYoJzXEkvDo9_UK2CvTj8p89W");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
-    color: rgb(5, 50, 103);
+    color: black(24, 26, 27);
     text-align: center;
 }
-
+/*--------------------Dropdown-------------------*/
 /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(242, 82, 9);
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -52,10 +61,10 @@ h1{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: rgb(216, 79, 16);
 }
 
-
+/*--------------Hover over Description-----------------*/
 .tooltip {
     position: relative;
     display: inline-block;
@@ -64,7 +73,7 @@ h1{
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: rgb(5, 110, 109);
+    background-color: rgb(216, 79, 16);
     color: #fff;
     text-align: center;
     padding: 5px 0;
@@ -75,7 +84,7 @@ h1{
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
-
+/*--------------------End of Hover over----------------*/
 
 .parag{
     margin-left: auto;
@@ -102,6 +111,3 @@ IMG.img{
     margin-left: auto;
     margin-right: auto;
 }
-/*.tail{
-    text-align:center;
-}*/
