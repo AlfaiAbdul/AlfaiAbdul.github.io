@@ -2,7 +2,7 @@
 
 body {
     /* The image used */
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5iS7sOpfk-7CADSmczbEapujuDRCUK1DuRVrs6g-uGlGpth_9mg");
+    background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-baby-blue-eyes-solid-color-background.jpg");
 
     /* Full height */
     height: 100%; 
@@ -20,7 +20,7 @@ h1{
 /*--------------------Dropdown-------------------*/
 /* Dropdown Button */
 .dropbtn {
-    background-color: rgb(242, 82, 9);
+    background-color: rgb(9, 115, 186);
     color: black;
     padding: 16px;
     font-size: 16px;
@@ -61,7 +61,7 @@ h1{
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-    background-color: rgb(216, 79, 16);
+    background-color: rgb(9, 115, 186);
 }
 
 /*--------------Hover over Description-----------------*/
@@ -73,7 +73,7 @@ h1{
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: rgb(216, 79, 16);
+    background-color: rgb(9, 115, 186);
     color: #fff;
     text-align: center;
     padding: 5px 0;
