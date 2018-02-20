@@ -2,7 +2,7 @@
 
 body {
     /* The image used */
-    background-image: url("http://www.solidbackgrounds.com/images/2560x1440/2560x1440-baby-blue-eyes-solid-color-background.jpg");
+    background-color: rgb(30, 123, 223)
 
     /* Full height */
     height: 100%; 
@@ -16,53 +16,49 @@ body {
 h1{
     color: rgb(5, 50, 103);
     text-align: center;
+    font-style: italic
+
+
+
 }
-/*--------------------Dropdown-------------------*/
-/* Dropdown Button */
-.dropbtn {
-    background-color: rgb(9, 115, 186);
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
+.side-bar-img {
+    float: left;
+    max-width: 45%;
+    max-height: 5%;
+    margin: 5px;
+}
+#nav-title {
+    background-color: #212188;
+    color: rgb(217, 228, 237);
+    margin-left: 50px;
+}
+.main-viz {
+    padding-bottom: 20px;
+    margin: auto;
+    
+}
+.main-content {
+    padding: 30px;
+    padding-top: 0px;
+}
+.navbar-toggle {
+    background-color: #212188; 
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(94, 176, 238);
 }
 
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: relative;
-    display: inline-block;
+@media only screen and (max-width: 992px) {
+    .side-bar-img {
+        width: 23%;
+    }
+    
+    #bottom-comp {
+        border-bottom-width: 0px;
+    }
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: rgb(9, 115, 186);
-}
 
 /*--------------Hover over Description-----------------*/
 .tooltip {
@@ -74,7 +70,7 @@ h1{
     visibility: hidden;
     width: 120px;
     background-color: rgb(9, 115, 186);
-    color: #fff;
+    color: rgb(94, 176, 238);
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
@@ -89,7 +85,8 @@ h1{
 .parag{
     margin-left: auto;
     margin-right: auto;
-    width: 36em;
+    width: 50em;
+    font-size: 1.3em
 }
 
 .sub{
@@ -110,4 +107,9 @@ IMG.img{
     text-align:center;
     margin-left: auto;
     margin-right: auto;
+}
+
+iframe{ 
+    align-content: center;
+    margin-left: 30em
 }
