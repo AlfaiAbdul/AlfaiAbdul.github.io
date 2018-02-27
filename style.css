@@ -18,8 +18,9 @@ h1{
     text-align: center;
     font-style: italic
 
-
-
+}
+thead{
+    text-align: center;
 }
 .side-bar-img {
     float: left;
@@ -83,10 +84,12 @@ h1{
 /*--------------------End of Hover over----------------*/
 
 .parag{
+    text-align: justify;
     margin-left: auto;
     margin-right: auto;
     width: 50em;
-    font-size: 1.3em
+    font-size: 1.4em
+    display: inline-block;
 }
 
 .sub{
@@ -103,13 +106,15 @@ IMG.img{
     display:block;
     text-decoration:none;
 }
-.table{
-    text-align:center;
-    margin-left: auto;
-    margin-right: auto;
+table {
+    table-layout: fixed;
 }
 
-iframe{ 
-    align-content: center;
-    margin-left: 30em
+.tail{
+    text-align: center;
+    font-size: 2.1em
 }
+tr{
+    border: darksalmon;
+}
+
