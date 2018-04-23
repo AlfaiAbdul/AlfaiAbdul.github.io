@@ -2,7 +2,7 @@
 
 body {
     /* The image used */
-    background-color: rgb(30, 123, 223)
+    background-color: rgb(1, 9, 17);
 
     /* Full height */
     height: 100%; 
@@ -14,11 +14,18 @@ body {
 }
 
 h1{
-    color: rgb(5, 50, 103);
+    color: white;
     text-align: center;
     font-style: italic
 
 }
+h2{
+    color: white;
+    text-align: center;
+    font-style: italic
+
+}
+
 thead{
     text-align: center;
 }
@@ -29,7 +36,7 @@ thead{
     margin: 5px;
 }
 #nav-title {
-    background-color: #212188;
+    background-color: black;
     color: rgb(217, 228, 237);
     margin-left: 50px;
 }
@@ -61,40 +68,22 @@ thead{
 
 
 
-/*--------------Hover over Description-----------------*/
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;  
-}
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: rgb(9, 115, 186);
-    color: rgb(94, 176, 238);
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
-    position: absolute;
-    z-index: 1;
-}
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-/*--------------------End of Hover over----------------*/
+
 
 .parag{
+    color: bisque;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     width: 50em;
     font-size: 1.4em
     display: inline-block;
+    
 }
 
 .sub{
     text-align: center;
-    color: rgb(5, 50, 103);
+    color: rgb(2, 10, 19);
 }
 IMG.img{
     display: block;
@@ -116,5 +105,41 @@ table {
 }
 tr{
     border: darksalmon;
+}
+
+/*--------------- Size Control ----------------*/
+@media only screen and (max-width: 992px) {
+    .side-bar-img {
+        width: 23%;
+    }
+    .comparison {
+        border-bottom: 1px solid #0dd8ee;
+        padding-bottom: 20px;
+    }
+    #bottom-comp {
+        border-bottom-width: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #landing-img {
+        max-width: 100%;
+    }
+    .side-bar-img {
+        float: left;
+        max-height: 45%;
+        max-width: 45%;
+        margin: 2px;
+    }
+}
+
+.panel-info>.panel-heading {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+.row {
+    margin-right: -11px;
+    margin-left: -11px;
 }
 
