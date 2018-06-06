@@ -15,7 +15,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 200px;
+}
 h1{
     color: white;
     text-align: center;
@@ -28,7 +33,11 @@ h2{
     font-style: italic
 
 }
-
+h4 {
+    color: white;
+    text-align: center;
+    font-style: italic 
+}
 thead{
     text-align: center;
 }
@@ -94,6 +103,12 @@ IMG.img{
     margin-right: auto;
 
 }
+
+.sticky {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .link{
     display:block;
     text-decoration:none;
@@ -145,4 +160,6 @@ tr{
     margin-right: -11px;
     margin-left: -11px;
 }
+
+
 
