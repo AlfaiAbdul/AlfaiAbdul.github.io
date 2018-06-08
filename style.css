@@ -23,6 +23,12 @@ body {
     margin-left: 1ch;
 }
 */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1{
     color: white;
     text-align: center;
